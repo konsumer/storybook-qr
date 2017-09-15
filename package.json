@@ -1,0 +1,27 @@
+{
+  "name": "storybook-qr",
+  "version": "0.0.0",
+  "description": "Adds QR code for current story to your storybook panel",
+  "main": "register.js",
+  "scripts": {
+    "prepublish": "babel src/register.js > index.js"
+  },
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "peerDependencies": {
+    "@storybook/addons": "^3.x",
+    "react": "^15.x"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "keywords":["storybook", "qr", "barcode", "mobile"]
+}
