@@ -2,7 +2,7 @@
 
 Adds QR code for current story to your storybook panel.
 
-I find it helpful to be able to test stories on mobile devices. This makes it very fast & easy, as it creates a QR code that is just the story (no storybook UI.)
+I find it helpful to be able to test web stories on mobile devices. This makes it very fast & easy, as it creates a QR code that is just the story (no storybook UI.)
 
 On iOS, use the camera app, on Android use ["Barcode Scanner" from ZXing](https://play.google.com/store/apps/details?id=com.google.zxing.client.android).
 
