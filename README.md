@@ -13,6 +13,11 @@ On iOS, use the camera app, on Android use ["Barcode Scanner" from ZXing](https:
 Then in your `.storybook/addons.js`:
 
 ```js
+// other stuff in your addons:
+import '@storybook/addon-options/register'
+import '@storybook/addon-actions/register'
+import '@storybook/addon-knobs/register'
+
 import qr from 'storybook-qr/register'
 
 qr('http://192.168.0.5:6006/') // The URL that your phone can reach your storybook at
