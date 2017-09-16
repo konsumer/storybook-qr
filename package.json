@@ -23,5 +23,14 @@
       "react"
     ]
   },
-  "keywords":["storybook", "qr", "barcode", "mobile"]
+  "keywords": [
+    "storybook",
+    "qr",
+    "barcode",
+    "mobile"
+  ],
+  "dependencies": {
+    "@storybook/addons": "^3.2.6",
+    "react": "^15.6.1"
+  }
 }

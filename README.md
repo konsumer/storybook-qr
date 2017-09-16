@@ -17,10 +17,12 @@ Then in your `.storybook/addons.js`:
 import '@storybook/addon-options/register'
 import '@storybook/addon-actions/register'
 import '@storybook/addon-knobs/register'
+import 'storybook-qr/register'
 
-import qr from 'storybook-qr/register'
-
-qr('http://192.168.0.5:6006/') // The URL that your phone can reach your storybook at
 ```
+
+The addon will use teh current url, so go to your local-wifi address, but if it's incorrect or you are building for another system, you can set the storybook URL with `process.env.STORYBOOK_URL`
+
+You can get your IP with `ifconfig | grep inet` on OSX or linux.
 
 Now you should have a new panel labeled "QR CODE" on your storybook.
