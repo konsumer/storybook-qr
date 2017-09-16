@@ -21,7 +21,7 @@ import 'storybook-qr/register'
 
 ```
 
-The addon will use teh current url, so go to your local-wifi address, but if it's incorrect or you are building for another system, you can set the storybook URL with `process.env.STORYBOOK_URL`
+The addon will use the current url, so go to your local-wifi address, but if it's incorrect or you are building for another system, you can set the storybook URL with `process.env.STORYBOOK_URL`
 
 You can get your IP with `ifconfig | grep inet` on OSX or linux.
 
