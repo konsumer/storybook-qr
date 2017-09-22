@@ -16,7 +16,7 @@ addons.register('local_qr', api => {
     }
 
     handleUrl (kind, story) {
-      const url = `${externalUrl || (window.location.origin + ':' + window.location.port)}iframe.html?selectedKind=${encodeURIComponent(kind)}&selectedStory=${encodeURIComponent(story)}`
+      const url = `${externalUrl}iframe.html?selectedKind=${encodeURIComponent(kind)}&selectedStory=${encodeURIComponent(story)}`
       this.setState({url})
     }
 

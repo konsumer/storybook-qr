@@ -11,10 +11,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
-    "babel-preset-react": "^6.24.1"
-  },
-  "peerDependencies": {
-    "@storybook/addons": "^3.x",
+    "babel-preset-react": "^6.24.1",
     "react": "^15.x"
   },
   "babel": {
@@ -30,5 +27,6 @@
     "mobile"
   ],
   "dependencies": {
+    "@storybook/addons": "^3.2.6"
   }
 }
