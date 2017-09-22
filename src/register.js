@@ -1,7 +1,7 @@
 import React from 'react'
 import addons from '@storybook/addons'
 
-const externalUrl = process.env.STORYBOOK_URL || window.location.origin
+const externalUrl = process.env.STORYBOOK_URL || (window.location.origin + window.location.pathname)
 
 addons.register('local_qr', api => {
   class QRPanel extends React.Component {
