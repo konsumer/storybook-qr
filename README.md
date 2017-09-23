@@ -17,7 +17,7 @@ Then in your `.storybook/addons.js`:
 import '@storybook/addon-options/register'
 import '@storybook/addon-actions/register'
 import '@storybook/addon-knobs/register'
-import 'storybook-qr/register'
+import 'storybook-qr'
 
 ```
 
