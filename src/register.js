@@ -3,13 +3,7 @@ import addons from '@storybook/addons'
 
 const externalUrl = process.env.STORYBOOK_URL || (window.location.origin + window.location.pathname)
 
-// this gets called
-console.log('HI FROM TOP OF FILE')
-
 addons.register('local_qr', api => {
-  // this never gets called
-  console.log('HI FROM INSIDE REGISTER')
-
   class QRPanel extends React.Component {
     constructor (props) {
       super(props)
