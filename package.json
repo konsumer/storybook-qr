@@ -1,6 +1,6 @@
 {
   "name": "storybook-qr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds QR code for current story to your storybook panel",
   "main": "register.js",
   "scripts": {
