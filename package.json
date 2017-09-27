@@ -6,6 +6,10 @@
   "scripts": {
     "prepublish": "babel src/register.js > index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konsumer/storybook-qr.git"
+  },
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
   "license": "MIT",
   "devDependencies": {
