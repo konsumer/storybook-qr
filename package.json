@@ -31,6 +31,6 @@
     "mobile"
   ],
   "dependencies": {
-    "@storybook/addons": "^3.2.6"
+    "@storybook/addons": "^3.2.16"
   }
 }
